@@ -44,13 +44,13 @@ export default class Starwars extends React.Component{
                 {
                     this.state.load &&
                     <div className='data'>
-                        <h1>{this.state.name}</h1>
-                        <p className='details'>{this.state.height}</p>
-                        <p className='details'>{this.state.mass}</p>
-                        <p className='details'>{this.state.gender}</p>
+                        <p className='details'><span className="keys">Name: </span>{this.state.name}</p>
+                        <p className='details'><span className='keys'>Height: </span>{this.state.height}</p>
+                        <p className='details'><span className='keys'>Weight: </span>{this.state.mass}</p>
+                        <p className='details'><span className='keys'>Gender: </span>{this.state.gender}</p>
                         <img src={this.state.image} alt="img" className='details'/>
-                        <p className='details'>{this.state.homeworld}</p>
-                        <p className='details'>{this.state.birthday}</p>
+                        <p className='details'><span className='keys'>Homeworld: </span>{this.state.homeworld}</p>
+                        <p className='details'><span className='keys'>Birth Day: </span>{this.state.birthday}</p>
                     </div>
                 }
             </>

@@ -2,10 +2,45 @@ html{
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: #14213d;
+  background: #0c0f0a;
 }
 
 .data{
   text-align: center;
-  background: #14213d;
+  background: #0c0f0a;
+  color: #c5c3c6;
+  font-size: 20px;
 }
+
+.data img{
+  height: 300px;
+  border-radius: 50%;
+}
+
+button{
+  display: block;
+  padding: 10px 40px;
+  text-align: center;
+  margin: 40px auto;
+  background: #000814;
+  color: #ffff3f;
+  border: 1px solid #ffff3f;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+button:hover{
+  color: #000814;
+  background: #ffff3f;
+  font-size: 30px;
+  
+}
+
+.data .details .keys{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
